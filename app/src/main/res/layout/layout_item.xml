@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/char_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/wanda"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/char_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wanda_maximoff"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
